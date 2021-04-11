@@ -11,11 +11,6 @@ npm build
 
 .env file
 
-MONGO_URL=local or remote URL 
+REACT_APP_API_URL=http://localhost:8080 or remote URL
 
-PORT=8080
-
-JWT_SECRET=Any random long string
-
-CLIENT_URL=NodeApi url (http://localhost:5000)
 
