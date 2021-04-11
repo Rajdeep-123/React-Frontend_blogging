@@ -23,18 +23,13 @@ class Admin extends Component {
             <div>
                 <div className="jumbotron">
                     <h2>Admin Dashboard</h2>
-                    <p className="lead">Welcome to React Frontend</p>
                 </div>
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-md-6">
-                            <h2>Posts</h2>
-                            <hr/>
                             <Allposts />
                         </div>
                         <div className="col-md-6">
-                            <h2>Users</h2>
-                            <hr/>
                             <Users />
                         </div>
                     </div>
