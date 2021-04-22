@@ -1,0 +1,58 @@
+body{
+  overflow-x: hidden;
+}
+.hoverEffect{
+    position: absolute;
+    top:20px;
+    right: 20px;
+    background: none;
+    font-size: 22px;
+    transition: all ease-in-out .6s;
+
+}
+.hoverEffect:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.nortificationArea{
+    height: 300px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.616);
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.nortificationArea::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  /* Track */
+  .nortificationArea ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+
+  /* Handle */
+  .nortificationArea ::-webkit-scrollbar-thumb {
+    background: rgb(226, 98, 98);
+    border-radius: 10px;
+  }
+
+  /* Handle on hover */
+  .nortificationArea::-webkit-scrollbar-thumb:hover {
+    background: #b30000;
+  }
+
+  @media only screen and (max-width: 450px) {
+    .hoverEffect{
+      top:112px;
+    right: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 330px) {
+    .hoverEffect{
+      top:160px;
+    right: 10px;
+    }
+  }
